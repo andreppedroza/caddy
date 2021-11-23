@@ -7,5 +7,5 @@ I took the base caddy docker image; added below custom modules and built custom 
 https://hub.docker.com/_/caddy?tab=description
 
 # Modules Included
-- caddy-docker-proxy
-- caddy-tlsconsul
+- caddy-dns/cloudflare
+- gamalan/caddy-tlsredis
